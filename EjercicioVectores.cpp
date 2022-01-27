@@ -13,6 +13,8 @@ int main(){
 		cout<<vector[i]<<endl;
 	*/
 
+	int edad;
+	int mayoredad=18;
 	string animal="langosta";
   string contrasena="";
 
@@ -22,10 +24,22 @@ int main(){
 	cin>>contrasena;
   }
 	*/
-	
+	/*
 	do{
 	cout<<"Introduce mi animal favorito!"<<endl;
 	cin>>contrasena;
   }while(contrasena!=animal);
+	*/
+
+	int edad;
+	int mayoredad=18;
+	cout<<"Que edad tienes?"<<endl;
+    cin>>edad;
+	if(edad<=mayoredad){
+		cout<<"Eres to pequeeeee";
+	}else{
+		cout<<"Pues te ves joven para tu edad!";
+	}
+	
 
 }
