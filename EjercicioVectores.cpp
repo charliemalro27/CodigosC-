@@ -16,10 +16,16 @@ int main(){
 	string animal="langosta";
   string contrasena="";
 
+	/*
   while(contrasena!=animal){
 	cout<<"Introduce mi animal favorito!"<<endl;
 	cin>>contrasena;
   }
-
+	*/
+	
+	do{
+	cout<<"Introduce mi animal favorito!"<<endl;
+	cin>>contrasena;
+  }while(contrasena!=animal);
 
 }
