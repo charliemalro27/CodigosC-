@@ -18,6 +18,7 @@ int main(){
 	string animal="langosta";
   string contrasena="";
 	int nota;
+	int numero;
 
 	/*
   while(contrasena!=animal){
@@ -42,7 +43,7 @@ int main(){
 		cout<<"Pues te ves joven para tu edad!";
 	}
 	*/
-
+	/*
 	cout<<"Que nota has sacado? "<<endl;
 	cin>>nota;
 	if(nota<5){
@@ -56,6 +57,14 @@ int main(){
 	if(nota>8){
 		cout<<"sobresalienteeeee";
 	}
+	*/
 
+	cout<<"Escribe un numero";
+	cin>>numero;
+	if(numero%2==0){
+		cout<<"El numero es par ";
+	}else{
+		cout<<"El numero es impar ";
+	}
 
 }
