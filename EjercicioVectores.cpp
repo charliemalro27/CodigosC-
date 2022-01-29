@@ -3,6 +3,15 @@
 
 using namespace std;
 
+
+void imprimirarray(int array[],int tamano){
+        for(int i=0;i<=tamano;i++){
+            cout<<array[i]<<endl;
+        }
+}
+
+
+
 int main(){
 
 	/*int suma[100];
@@ -19,6 +28,8 @@ int main(){
   string contrasena="";
 	int nota;
 	int numero;
+	int listanumeros[100];
+	int numerospares[100];
 
 	/*
   while(contrasena!=animal){
@@ -58,7 +69,7 @@ int main(){
 		cout<<"sobresalienteeeee";
 	}
 	*/
-
+	/*
 	cout<<"Escribe un numero";
 	cin>>numero;
 	if(numero%2==0){
@@ -66,5 +77,27 @@ int main(){
 	}else{
 		cout<<"El numero es impar ";
 	}
+	*/
+
+	for(int i=0;i<101;i++){
+             listanumeros[i]=i;
+                 if(listanumeros[i]%2==0){
+                     numerospares[i/2]=listanumeros[i];
+                 }
+         }
+
+     cout<<"Lista de numeros del 0-100 "<<endl;
+
+     imprimirarray(listanumeros,100);
+     cout<<" "<<endl;
+     cout<<"Lista de numeros pares de listanumeros "<<endl;
+     cout<<" "<<endl;
+     imprimirarray(numerospares,50);
+
+
+
+ 	return 0;
+
+
 
 }
