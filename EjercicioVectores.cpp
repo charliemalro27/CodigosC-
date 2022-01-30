@@ -78,7 +78,7 @@ int main(){
 		cout<<"El numero es impar ";
 	}
 	*/
-
+  /*
 	for(int i=0;i<101;i++){
              listanumeros[i]=i;
                  if(listanumeros[i]%2==0){
@@ -93,11 +93,19 @@ int main(){
      cout<<"Lista de numeros pares de listanumeros "<<endl;
      cout<<" "<<endl;
      imprimirarray(numerospares,50);
+  */
 
+  for(int i=0;i<101;i++){
+    listanumeros[i]=i;
+  }
+
+  for(int i=0;i<listanumeros[100];i+=4){
+        listanumeros4en4[i/4]=i+i+1+i+2+i+3;
+
+  }
+
+  imprimirarray(listanumeros4en4,100/4);
 
 
  	return 0;
-
-
-
 }
